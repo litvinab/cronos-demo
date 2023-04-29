@@ -1,4 +1,6 @@
 FROM nginx
 
 COPY ./html/index.html /usr/share/nginx/html
-ADD shell/update-html.sh update-html.sh
+RUN chmod -R 755 /usr/share/nginx/html
+
+ADD shell/update-html.sh shell/update-html.sh

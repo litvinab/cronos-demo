@@ -6,6 +6,7 @@ services:
       context: ./docker/nginx
     volumes:
       - "./docker/nginx/html:/usr/share/nginx/html"
+      - "./docker/nginx/shell:/shell"
     ports:
       - "8083:80"
     restart: always
