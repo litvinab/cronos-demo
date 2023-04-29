@@ -1,5 +1,5 @@
 # cronos-example
-Example of the litvinab/cronos use with docker-compose
+Example of the [litvinab/cronos](https://github.com/litvinab/cronos) use with docker-compose
 
 `docker-compose.yml` file has basic nginx service which renders index.html file and shell command to update this file. 
 
