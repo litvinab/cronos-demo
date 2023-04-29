@@ -1,0 +1,2 @@
+*/1 * * * * date "+%Y-%m-%d %H:%M:%S" >> /var/log/cron.log
+*/1 * * * * docker exec -t cronos-example-nginx sh /shell/update-html.sh
