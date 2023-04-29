@@ -1,0 +1,16 @@
+version: '2'
+services:
+  nginx:
+    container_name: cronos-example-nginx
+    build:
+      context: ./docker/nginx
+    volumes:
+      - "./docker/nginx/html:/usr/share/nginx/html"
+    ports:
+      - "8083:80"
+    restart: always
+
+  cron:
+    container_name: cronos-example-cron
+    image: litvinab/cronos
+    restart: always
