@@ -1,4 +1,4 @@
-# cronos-example
+# cronos-demo
 Example of the [litvinab/cronos](https://github.com/litvinab/cronos) use with docker-compose
 
 `docker-compose.yml` file has:
